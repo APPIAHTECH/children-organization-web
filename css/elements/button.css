@@ -1,0 +1,31 @@
+.btn-normal , .btn-round{
+
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  color: white;
+  background-color: #DD2C00; /*btn color orange*/
+  border: none;
+  height: 100px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.btn-round{
+    border-radius: 4%;
+}
+
+.btn-normal ,.btn-round:hover {
+  cursor: pointer;
+  background-color:#B3E5FC;
+  color: black;
+  transition: 1s;
+}
+.btn-normal , .btn-round:active {
+    background-color: #293f50;
+}
+
+
+#btn-donate{
+  top: 600px;
+}

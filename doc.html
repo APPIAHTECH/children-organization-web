@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--METAS--->
+    <meta charset="UTF-8">
+    <meta name="description" content="KDonate Manual and documentation">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Stephen Appiah">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="fonts/icons/style.css" rel="stylesheet" type="text/css"/>
+    <title>Krod</title>
+</head>
+
+<body>
+
+    <!-- HEADER--->
+    <header>
+
+        <input type="checkbox" id="btn-menu" />
+        <label for="btn-menu">
+            <img src="img/mobile_icon.png" width="30px" height="30px"/>
+        </label>
+
+        <!-- Nav -->
+        <nav class="nav-menu">
+
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"> Something else ..</a></li>
+            </ul>
+
+        </nav>
+        <!-- END NAV--->
+
+    </header>
+    <!--END HEADER--->
+
+    <!--Menu Social --->
+   <div class="social-menu">
+
+       <ul>
+           <li><a href="" class="icon-github"></a></li>
+           <li><a href="" class="icon-wordpress"></a></li>
+           <li><a href="" class="icon-yahoo2"></a></li>
+           <li><a href="" class="icon-joomla"></a></li>
+       </ul>
+   </div>
+   <!--END Menu Social-->
+
+    <!--<h1><span class="icon-access_alarms"></span> Alarm </h1> -->
+
+
+    <!-- SECTION ANUNCI PRACTICA PT9 REVISAR-->
+    <section>
+        <div class="art-anunci">
+            <div class="cartell">
+                <img class="img-article-anunci" src="img/mobile_icon.png">
+            </div>
+
+            <div class="info">
+                <p class="titol">Rebaixes TITOL</p>
+                <p class="mes">HOLA SOC MES  </p>
+                <a href="www.google.es" class="link">Link</a>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION--->
+
+    <!-- SECTION ARTICLE-->
+    <section>
+
+        <article class="art-normal">
+            <img src="img/mobile_icon.png" class="img-article">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+                Aliquam ante est, molestie sit amet massa sed, tempor feugiat nisl.<br/>
+                Nunc quis blandit ante. Etiam ac mattis justo. Morbi euismod ex eget faucibus volutpat.<br/>
+                Donec ut laoreet diam. Suspendisse a tincidunt magna. <br/>
+                Praesent dignissim, metus nec fringilla rutrum, libero orci feugiat nibh, at molestie massa erat sit amet nibh.<br/>
+                In sed tellus congue, tempor magna id, commodo neque. <br/>
+                Phasellus ornare at augue vel mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>
+                Donec lacus elit, efficitur ac arcu sit amet, bibendum porta urna.<br/>
+            </p>
+        </article>
+
+        <article class="art-normal">
+            <img src="img/mobile_icon.png" class="img-article img-article-dreta">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
+                Aliquam ante est, molestie sit amet massa sed, tempor feugiat nisl.<br/>
+                Nunc quis blandit ante. Etiam ac mattis justo. Morbi euismod ex eget faucibus volutpat.<br/>
+                Donec ut laoreet diam. Suspendisse a tincidunt magna. <br/>
+                Praesent dignissim, metus nec fringilla rutrum, libero orci feugiat nibh, at molestie massa erat sit amet nibh.<br/>
+                In sed tellus congue, tempor magna id, commodo neque. <br/>
+                Phasellus ornare at augue vel mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br/>
+                Donec lacus elit, efficitur ac arcu sit amet, bibendum porta urna.<br/>
+            </p>
+        </article>
+
+    </section>
+    <!--END SECTION--->
+
+
+    <!-- SECTION FORM-->
+    <section>
+
+        <div class="container">
+
+            <form>
+                <fieldset class="pannel">
+
+                    <label name="user_name"> User
+                        <input type="text" name="input_user_name"/>
+                    </label>
+
+                    <label name="password"> Password
+                        <input type="password" name="input_user_password"/>
+                    </label>
+
+                </fieldset>
+
+
+                <fieldset class="pannel-bot fieldset-small">
+
+                    <input class="pan-bot" type="submit" name="submit" value="Login" />
+
+                    <label name="checkbox"> recordar usuari
+                        <input type="checkbox" name="input_user_checkbox"/>
+                    </label>
+                </fieldset>
+            </form>
+
+        </div>
+
+    </section>
+   <!--END FORM--->
+
+   <!--  Anunci en desplegable-->
+   <div class="banner">
+       <div class="show">
+            <p>Posat aqui!</p>
+       </div>
+       <div class="banner-anunci">
+
+       </div>
+
+   </div>-->
+
+   <!--GALERIA-->
+   <div class="container">
+       <h1> Galeria de imatges</h1>
+        <ul class="galeria-img">
+            <li><a href="#img1"><img src="img/Lighthouse.jpg" /></a></li>
+            <li><a href="#img2"><img src="img/Lighthouse.jpg" /></a></li>
+            <li><a href="#img3"><img src="img/Lighthouse.jpg" /></a></li>
+            <li><a href="#img4"><img src="img/Lighthouse.jpg" /></a></li>
+        </ul>
+
+       <div class="modal" id="img1">
+           <h1> Imatge 1</h1>
+           <div class="modal-img">
+                <a href="#img1"> &#60</a>
+                <li><a href=""><img src="img/Lighthouse.jpg" /></a></li>
+                <a href="#img2">&#62</a>
+           </div>
+           <a href="" class="close">X</a>
+       </div>
+
+       <div class="modal" id="img2">
+           <h1> Imatge 2</h1>
+           <div class="modal-img">
+                <a href="#img2"> &#60</a>
+                <li><a href=""><img src="img/Lighthouse.jpg" /></a></li>
+                <a href="#img3">&#62</a>
+           </div>
+           <a href="" class="close">X</a>
+       </div>
+
+       <div class="modal" id="img3">
+           <h1> Imatge 3</h1>
+           <div class="modal-img">
+                <a href="#img3"> &#60</a>
+                <li><a href="#img4"><img src="img/Lighthouse.jpg" /></a></li>
+                <a href="">&#62</a>
+           </div>
+           <a href="" class="close">X</a>
+       </div>
+
+       <div class="modal" id="img4">
+           <h1> Imatge 4</h1>
+           <div class="modal-img">
+                <a href="#img4"> &#60</a>
+                <li><a href=""><img src="img/Lighthouse.jpg" /></a></li>
+                <a href="#img1">&#62</a>
+           </div>
+           <a href="" class="close">X</a>
+       </div>
+   </div>
+   <!--END GALERIA--->
+
+
+
+
+    <!--FOOTER--->
+    <footer></footer>
+    <!--END FOOTER--->
+
+    <!--CSS links--->
+    <link href="css/elements/galeria.css" rel="stylesheet" type="text/css"/>
+    <link href="css/menu/menuSocial.css" rel="stylesheet" type="text/css"/>
+    <link href="css/elements/banner.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/page_style.css">
+    <link rel="stylesheet" type="text/css" href="css/layout/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/menu/menuHamburguesa.css">
+    <link rel="stylesheet" type="text/css" href="css/elements/articles.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaQuerys.css">
+    <link href="css/elements/form.css" rel="stylesheet" type="text/css"/>
+    <!--Js links--->
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+#btn-menu{
+    display: none;
+}
+#log_righ{
+  text-align: right;
+}
+#active{
+    background-color: #01579B;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 20px;
+    border-radius: 50%;
+    /*background-color: white;
+    border-radius: 50%;*/
+}
+
+#logo:hover{
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+    border: solid black 10px;
+    padding: 10px;
+}
+
+#logo:active{
+    border-color: #E91E63;
+}
+header label{
+
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    padding-top: 10px;
+    /*border-right: 2px solid white;*/
+}
+
+header label:hover{
+
+    cursor: pointer;
+    /*background: rgba(0,0,0,3);*/
+}
+
+.nav-menu{
+    /*background-color: #FF1744;*/
+    font-size: 20px;
+    height: 50px;
+    margin-top: 20px;
+}
+.nav-menu ul{
+
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li{
+
+    text-align: left;
+    flex-grow: 1;
+    /*border-right: 2px solid white;*/
+}
+
+.nav-menu li:hover{
+    background-color:#2196F3;
+    font-size: 25px;
+    transition-duration: 1s;
+    border-radius: 5px;
+}
+
+.nav-menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: white; /*Text color*/
+    text-decoration: none;
+}
